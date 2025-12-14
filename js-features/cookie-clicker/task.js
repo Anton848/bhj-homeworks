@@ -14,8 +14,6 @@ cookieImage.onclick = function () {
     let currentClicks = parseInt(cookieClick.textContent);
     cookieClick.textContent = currentClicks + 1;
 
-    // click speed count
-    cookieSpeedClick.textContent = (((Date.now() - todayTime) / 1000) / (currentClicks - previousClicks)).toFixed(2);
-    previousClicks = currentClicks;
+
 
 };
