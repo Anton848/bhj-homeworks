@@ -14,6 +14,12 @@ cookieImage.onclick = function () {
     let currentClicks = parseInt(cookieClick.textContent);
     cookieClick.textContent = currentClicks + 1;
 
-
+     if (cookieImage.width === 200) {
+                cookieImage.width = 180;
+                cookieImage.height = 180;
+            } else {
+                cookieImage.width = 200;
+                cookieImage.height = 200;
+            }
 
 };
