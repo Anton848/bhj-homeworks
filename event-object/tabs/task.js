@@ -8,6 +8,7 @@ class Tabs {
         this.contents = element.querySelectorAll('.tab__content');
         // Регистрируем обработчики событий
         this.registerEvents();
+        
     }
 
     registerEvents() {
