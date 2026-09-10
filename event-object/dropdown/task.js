@@ -17,7 +17,6 @@ dropdowns.forEach(dropdown => {
         // Переключаем класс 'dropdown__list_active', который отвечает за отображение списка.
         list.classList.toggle('dropdown__list_active');
     });
-
     // Добавляем обработчик события 'click' для каждого пункта меню.
     items.forEach(item => {
         item.addEventListener('click', (event) => {
